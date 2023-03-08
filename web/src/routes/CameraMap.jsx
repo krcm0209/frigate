@@ -205,6 +205,7 @@ ${Object.keys(objectMaskPoints)
           <div>
             <p>This tool can help you create masks & zones for your {camera} camera.</p>
             <ul>
+              <li>Click the Add button next to Motion Map, Zones, or Object Masks to start.</li>
               <li>Click to add a point.</li>
               <li>Click and hold on an existing point to move it.</li>
               <li>Right-Click on an existing point to delete it.</li>
