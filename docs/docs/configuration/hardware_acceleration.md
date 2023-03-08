@@ -15,6 +15,8 @@ ffmpeg:
   hwaccel_args: preset-rpi-64-h264
 ```
 
+**NOTICE**: The hardware decoder on the Raspberry Pi does not support resolutions greater than 1920x1080. In order to use hardware decoding on a camera with a higher resolution, you must configure your camera to output at 1080p or below.
+
 ### Intel-based CPUs (<10th Generation) via VAAPI
 
 VAAPI supports automatic profile selection so it will work automatically with both H.264 and H.265 streams. VAAPI is recommended for all generations of Intel-based CPUs if QSV does not work.
